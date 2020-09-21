@@ -1,0 +1,232 @@
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-02\mattmoss-copy-124-72834.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-02\mattmoss-copy-125-77777.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-02\mattmoss-copy-126-77777.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-02\mattmoss-copy-127-77777.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-02\mattmoss-copy-128-77777.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-02\mattmoss-cotest1.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-02\mattmoss-test.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-02\mattmoss-test2.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-02\mattmoss-test3.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-02\mattmoss-test4.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-02\mattmoss-test5.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-02\mattmoss-test6.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-02\mattmoss-test7.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-02\mattmoss-test8.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-02\mattmoss-testing-205-16036.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-02\spinal232-anyoalen-Gearmachine the Hell-Bloodline-203-671.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-03\jaapschouwenburgjaaswb-Paintfeed-region1-spr-201-sum--aut-202-202-35938.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-03\jplur-Staticbasements-region1-sum-453-win--aut-456-456-20315.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-03\kefkakrazy-Attackhammer-region1-255-10271.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-03\lazureus-Martyredsyrup-region1-203-30687.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-03\manties-Coverattics-212.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-03\ram-levitating obelisk.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-03\short_dwarf-Containedconstruct-region1-229-8.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-03\sirfinkus-Cloisterpure-region1-202-3171.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-03\somedude-ARMOUR.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-03\toast-Tombtrade-fort-229-2681.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-04\aristoi-Gravebound-Boldolxah-208-0.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-04\blackjack-Masterwalls-Masterwalls-spr-202-203-0.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-04\dim3tapp-Wallbones-region2-202-36.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-04\hszeg-Pickquills.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-04\huttuunen-Rampartrounded-region2-156-20354.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-04\momaw-Newworks-region1-35-20980.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-04\obsidian-Gatecolumn-region1-204-25920.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-04\rubberduck-Ropecastle2.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-04\rubberduck-Ropecastle4.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-04\rysith-Lanternwebs-region3-114-21681.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-04\sir_geo-Fortressdipped-region2-54-1760.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-04\timekitten-Cradlefires the Glaz-region2-426-1.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-05\attorneyatlawl-Clobbertrades-region2-41-517.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-05\daryan-Ancienthalls-map10k_Schmiede_11-10011-11168.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-05\mandaril-Dreadwatch-region2-229-2.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-05\markavian-what.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-05\p-luke-Whitesands-region1-206-38331.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-05\sneakeypete-Lanternattacks-region1-303-2.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-05\sourlout-The Construct of Who-region3-253-22292.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-05\spacepope-Cruxeal - migrant wave 3.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-05\toonyman-Deathquest-deathquest-217-1.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-05\tyroney-Masterbasement-region1-201-26590.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-06\anon-Fortresstomb-310.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-06\anon-Fortresstomb-313.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-06\aquilegia-Garlicgrass of Ales-region4-204-21773.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-06\atlasrune-Wardrooms-15747.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-06\azurelightning-Lakespire the Armore-region9-207-8345.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-06\blacken-Wheelbreak-region3-207-9283.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-06\crash2455-Talltower the Tall T-TallTower-125-20.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-06\euclid-autumn.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-06\euclid-winter.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-06\jackbread-Claspedbows.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-06\kristiansamuelsson-Slingtrample-spr-53.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-06\nahkh_-SparkgeartheBalls-SparkGear2-5th-305-6021.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-06\smittiey-Fliforsnis-region1-202-28321.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-07\arkdelgato-Northfortress-region1-53-55.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-07\arkdelgato-sparky2.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-07\azureu-Highportals1.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-07\corona688-test2.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-07\corona688-test4.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-07\corona688-test6.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-07\corona688-test9.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-07\demonicspoon-Gearspark the Fortre-SG3-212-18859.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-07\failwstyle-The Ancient Dessert Year 4.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-07\fireimp-Hammerappear-region1-208-17773.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-07\hyndis-Staketributes-332.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-07\kalinium-Hammerveils-region2-216-9501.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-07\kavjoesmashorcwarrior-Primefortress-RoundRobin_Year2-202-0.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-07\nightwatchman-Hawkboats-Spiralfort-202-3096.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-07\quietust-Towerclouted-taroru-219-10822.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-07\rwindmtg-local_map-1-1061-111.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-07\smeding-Bellsbridle-region1-204-14295.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-07\smeding-Ringgolds-region1-304-15488.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-07\solifuge-DF Masters 1_Webadict.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-07\terrypie-Manormawtp.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-07\tiogshi-Guildlashed-region3-255-21067.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-07\ww-Pagedruled-region1-220-41.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-08\dood-Lureportals.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-08\fireimp-Fillbooks-region2-208-14594.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-08\idlehero-Furnaceaged-region2-201-40026.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-08\nkd-site02a.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-08\nkd-site03a.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-08\nkd-site04a.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-08\nkdietrich-0820-site01b.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-08\nkdietrich-0820-site02b.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-08\nkdietrich-0820-site03a.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-08\nkdietrich-0820-site03c.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-08\nkdietrich-0820-site04b.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-08\nkdietrich-0820-site05a.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-08\nkdietrich-0820-site06a.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-08\nkdietrich-0820-site06c.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-08\nkdietrich-site01a.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-08\nkdietrich-site02a.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-08\nkdietrich-site03a.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-08\nkdietrich-site04a.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-08\nkdietrich-site05a.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-08\nkdietrich-site05c.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-08\nkdietrich-site06b.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-08\nkdietrich-site07b.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-08\nkdietrich-siteXb.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-08\nke-site04a.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-08\nke-site04c.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-08\nke-site05b.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-08\nke-site06b.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-08\nke-site07b.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-08\nke-site08b.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-08\rwindmtg-local_map-1-1062-10.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-08\skiv-Famousbandits-region1-10-2.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-08\solifuge-DFM2 Map.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-08\temra-Blockedfences-region1-205-5470.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-08\terrypie-piratecove.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-08\terrypie-piratecove2062.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-08\thezeus18-Baldapes the Attic o-region1-214-31989.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-08\toonyman-Deathquest-deathquest-206-83.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-08\turtle-Towerchannels 2.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-08\ultros-Roughnessglow-region1-201-44.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-08\yf-23-Shovehame-region2-110-33444.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-09\aristoi-Gloombound-Gloombound-81-2.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-09\jong89-Razorlength-region2-1016-3450.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-09\mission0-The Ancient-region1-46-27747.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-09\murdochi-Paintfeed-The House of Mouse-204-40080.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-09\philiperm-Laborpost-Best-223-15386.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-09\rdwulfe-Absolute Realms.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-09\realmfighter-Muckgrotto-DFM2 - Muckgrotto-100-35582.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-09\servu-Chaosburned.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-10\damonz-Auracleft the Infini-region2-201-39753.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-10\genkaz92-Palacelulled-region1-206-27468.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-10\karl-Lightningpainted-region2-82-4.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-10\koganloloklam-Linedsmiths_12.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-10\konig-Bitepride-region2-151-0.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-10\sava2004-Constructrain-205-0.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-07\corona688-test3.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-10\sava2004-Constructrain-Constructrain-202-163.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-10\scarpa-Canyoncastle.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-10\servu-Chamberknife120.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-10\shadowclasper-Agemourn-Copy of region3-208-31137.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-10\tkshadow-Wheelsblockade-region1-1057-9668.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-11\danarca-Waxfountain-SGVII NOV 22-316-30844.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-11\ichigoyummy-Pagedman-region1-211-28633.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-11\psychotic-Towntwinkles-region1-22-3.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-11\rwindmtg-Demonbanner-Facepunch y2-135-0.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-11\senorocho-Lucksyrups-region6-270-38923.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-11\skaltum-local_map-1-1055-9.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-11\yuki-Swordheaven-region3-264-30015.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-12\iceblink-Trusthatchet-region1-217-6036.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-12\kallemort-Ragevessel-region1-485-11.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-07\corona688-test5.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-12\redwick-Dance of Spears-region1-446-19005.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-12\s_m_w-Flashbanners-term3.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2009-12\typoman-Googlens of Waves-Googlens of waves-202-24422.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-01\boogada-Roughnessdances-region3-264-21685.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-01\callmeemo-Mirrorwipe-region1-210-24184.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-01\fearsomeengine-Blackmountain-sum.103. 12.12.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-01\ffoe-Princegate-region2A-202-26823.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-01\johnlukeg-Shieldbolted36.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-01\keizo-Podoshreelbus-region1-201-27825.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-01\labreck-Massivegem the Arche-SGIX-302-11538.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-01\lordshonus-Massivegem the Arche-SGIX-304-13319.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-01\nobledigger-Moonsyrups-region2-20-23020.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-01\nobledigger-Moonsyrups-region2-20-23420.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-01\ozymandias-angelgirls263.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-01\panda-Agedanus-region10-204-20162.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-02\azazel-Fernletters-region5-102-21254.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-02\fearsomeengine-Blackmountain-sum-104.12.12.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-02\navian-Mawhold-region3-219-38733.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-02\squirrelwizard-BalancedwheelsLS304.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-03\chickenlauncher-Hallbanners 104 map.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-03\set_beadra-Tourrelieves-region4-spr-31-sum-31-35-5395.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-03\squirrelwizard-Balancedwheels310.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-03\thecatfish-Spongyloot the Castl-region1-204-3.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-04\ashery-Bladeshoots-Copy of region14-214-0.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-04\bbsplat-Claspsqueezed-region2-1052-19197.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-04\caranha-Foresthome-503-9596.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-04\caranha-Foresthome-504-1380.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-04\logical2u-Tundralances-region21-1052-1.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-04\plumphelmet-Bittenlabor 171.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-04\redwick-Marketground-region5-994-19552.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-04\shadowex3-Sackwad-region5-234-34748.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-04\teddd-Mindbridges-region1 - Copy-311-4428.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-04\uristimiknorris-Skyscrapes the Tower-Skyscrapes-1054-0.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-05\atomic-Frenzybears1053LSummer.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-05\atomicpaperclip-Ceilingstoked-region2-258-26041.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-05\ivar360-Entrancedcastle-region1-320-10080.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-05\lance-advertise(linked).FDF-MAP
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-05\ryanhadley-Boataxe-region1-1056-36388.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-05\stephen-Counselaxe-region1-1052-3302.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-05\sulseeker-Armorhail2.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-05\tomagain-Coldlake-region7-1052-11270.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-05\uristimiknorris-Bronzecavern-region1-1051-15.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-05\wavecutter-Helmtrench-region5-1053-33452.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-05\zergl-Wheeledoils-region1-1053-10271.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-06\asdwolf-Part 2.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-06\kazindir-Wheeledoils-region2-1057-0.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-06\knightedskull-Mountaindies-region1-31-73.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-06\riloki-The Home of Wanderers-Entry 8.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-06\rolan7-Crestshot-region2-38-21416.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-07\iituem-Riverbend-venturer true-3-37348.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-07\kerzykerz-Thundersilver-region1-51-25363.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-08\dvorovic-Cavebrands.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-08\eagle-Boltcut-region1-131-1.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-08\hotfix-Ragswamps-region1-1054-19.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-08\tobel-Skinmine.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-08\tobel-Skinmine_1053_Spring.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-08\troz-Craftedgold-region1-212-36209.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-09\csebal-The Island of Suffer-Niralsil-105-17403.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-09\eniteris-Hamestopped-region1-1052-8.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-09\jakeperil-Mountaincrested-region1-512-5216.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-09\mcdirty-Violencevessel-VASGLP 4-154-134.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-09\mcdirty-Violencevessels-VASGLP 4-154-134.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-09\mcdirty-Year5-unrevealed.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-09\soandso-reveal2.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-10\aykavil-Trailcross-auto-201-spr.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-10\chunkynut-Shotskins-region3-504-25871.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-10\duriel-Crystalroses-region1-1008-29069.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-10\zayas-Wheelsroofs-region3-sum-257-win--spr-259-259-883.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-11\brewster-Stoppedearthen-region1-51-68.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-11\d2700-Lockglazed-1058.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-11\duckthatquacks-Whiskybridle-Whiskeybridle-1056-0.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-11\lorddullard-Lashcrested-region1-82-4.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-11\magicdwarf-Dierough-region1-168-38750.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-11\miko-Hatchetfolds-region3-1051-1839.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-11\osldgoth-Crewedcrafted-region1-264-25844.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-11\prepaidlenin-Oilyrasps 109.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-11\s9-Whisperletters-region1-1052-9044.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-11\togabot-Hightrade-region1-259-33846.fdf-map
+G:/Dev/DataScience/dfma-map-file-archive/maps\2010-12\felloslav-Frostspike-region1-552-25447.fdf-map
