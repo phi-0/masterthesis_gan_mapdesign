@@ -130,3 +130,6 @@ dmypy.json
 
 # Source data
 data/
+
+# Config file
+config.py
