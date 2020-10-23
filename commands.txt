@@ -1,0 +1,26 @@
+Connect to Switch VM via SSH and specify portforwarding for local host access to jupyter lab
+--------------------------------------------------------------------------------------------
+sudo ssh -L 8888:localhost:8888 ubuntu@86.119.39.72 -i /home/getecer/.ssh/switchsshpascal
+
+Build Docker container (on Switch VM)
+--------------------------------------------------------------------------------------------
+cd ~/mydocker
+sudo nano Dockerfile
+sudo docker build .
+
+Run Docker container on  Switch VM with portforwarding and mapping of local /data drive to /data drive in container
+--------------------------------------------------------------------------------------------
+sudo docker run --rm --gpus all -v /data:/data -it -p 8888:8888 -p 6006:6006 --name dwarfgan nvidia-tf 
+
+Run Jupyter Lab inside docker container on 0.0.0.0
+--------------------------------------------------------------------------------------------
+jupyter lab --ip 0.0.0.0 --allow-root
+
+
+
+Command to connect to S3 bucket with images and download to VM /data mapped drive
+--------------------------------------------------------------------------------------------
+sudo s3cmd ls s3://storage_hil --host=https://os.zhdk.cloud.switch.ch --region='ZH' --access_key='' --secret_key='' --host-bucket=storage_hil
+
+# download files to /data on VM
+sudo s3cmd get --recursive s3://storage_hil/maps/ /data/maps/ --host=https://os.zhdk.cloud.switch.ch --region='ZH' --access_key='' --secret_key='' --host-bucket=storage_hil

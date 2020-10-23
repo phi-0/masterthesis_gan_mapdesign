@@ -60,7 +60,7 @@ def decode(filelist, dlg, app):
 
             # attach to 'open file dialog'
             dlg = app.window(title='Select the encoded map')
-            dlg.wait('visible')
+            dlg.wait('visible') 
             #dlg.print_control_identifiers()
 
             # enter next source file
