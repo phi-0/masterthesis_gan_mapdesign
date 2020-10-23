@@ -10,7 +10,7 @@ sudo docker build .
 
 Run Docker container on  Switch VM with portforwarding and mapping of local /data drive to /data drive in container
 --------------------------------------------------------------------------------------------
-sudo docker run --rm --gpus all -v /data:/data -it -p 8888:8888 -p 6006:6006 --name dwarfgan nvidia-tf 
+sudo docker run --rm --gpus "all,capabilities=utility" -v /data:/data -it -p 8888:8888 -p 6006:6006 -p 8061:8061 --name dwarfgan nvidia-tf 
 
 Run Jupyter Lab inside docker container on 0.0.0.0
 --------------------------------------------------------------------------------------------
