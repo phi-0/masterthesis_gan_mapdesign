@@ -22,6 +22,8 @@ Run Tensorboard on docker container
 tensorboard --port=8061 --logdir=/data/output/tensorboard --bind_all
 
 
+
+
 Command to connect to S3 bucket with images and download to VM /data mapped drive
 --------------------------------------------------------------------------------------------
 sudo s3cmd ls s3://storage_hil --host=https://os.zhdk.cloud.switch.ch --region='ZH' --access_key='' --secret_key='' --host-bucket=storage_hil
