@@ -34,7 +34,7 @@ sudo nvidia-docker build . --no-cache -t 'tf-gpu'
 
 Run Docker container on  Switch VM with portforwarding and mapping of local /data drive to /data drive in container
 --------------------------------------------------------------------------------------------
-sudo run --rm --gpus "all,capabilities=utility" --runtime=nvidia -v /data:/data -it -p 8888:8888 -p 6006:6006 -p 8061:8061 --name dwarfgan tf-gpu
+sudo docker run --rm --gpus "all,capabilities=utility" --runtime=nvidia -v /data:/data -it -p 8888:8888 -p 6006:6006 -p 8061:8061 --name dwarfgan tf-gpu
 
 
 
@@ -48,6 +48,11 @@ Run Tensorboard on docker container
 tensorboard --port=8061 --logdir=/data/output/tensorboard --bind_all
 
 
+Further Docker Commands
+--------------------------------------------------------------------------------------------
+
+-- Delete dangling / untagged images
+sudo docker image prune -a
 
 
 Command to connect to S3 bucket with images and download to VM /data mapped drive

@@ -10,7 +10,7 @@ RUN git clone https://github.com/phi-0/masterthesis_gan_mapdesign.git
 
 RUN apt-get install -y python3.8 python3-pip
 
-RUN apt-get install -y jupyterlab
+RUN pip install jupyterlab
 
 #RUN export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda/extras/CUPTI/lib64
 
