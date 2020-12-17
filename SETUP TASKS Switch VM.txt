@@ -1,0 +1,9 @@
+SETUP TASKS Switch VM
+
+- Mount SSD Drive: 
+sudo mkdir /data
+sudo mount -t ext3 /dev/vdb1 /data
+
+- setup docker
+https://docs.docker.com/engine/install/ubuntu/
+
