@@ -1,4 +1,4 @@
-FROM tensorflow/tensorflow:nightly-gpu-jupyter-py3
+FROM tensorflow/tensorflow:nightly-gpu-py3-jupyter
 #FROM tensorflow/tensorflow:2.3.1-gpu-jupyter-python
 
 RUN apt-get update
