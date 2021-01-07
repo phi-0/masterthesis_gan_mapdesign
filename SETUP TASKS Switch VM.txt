@@ -4,6 +4,11 @@ SETUP TASKS Switch VM
 sudo mkdir /data
 sudo mount -t ext3 /dev/vdb1 /data
 
+-- add mount startup script here /etc/init.d/startup_mount.sh
+
+
 - setup docker
 https://docs.docker.com/engine/install/ubuntu/
 
+- setup nvidia container toolkit
+https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#docker

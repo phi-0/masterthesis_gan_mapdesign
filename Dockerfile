@@ -7,10 +7,15 @@ RUN apt-get -y install git
 RUN cd ~/
 
 RUN git clone https://github.com/phi-0/masterthesis_gan_mapdesign.git
+RUN cd ./masterthesis_gan_mapdesign
+RUN git config --global credential.helper 'store'
+RUN git config --global user.email "pascal.himmelberger@gmail.com"
+RUN git config --global user.name 'phi-0'
+RUN git config --global user.password 'a8f3b2494acfbd2e00e7745dca9435be70089458'
 
 RUN apt-get install -y python3.8 python3-pip
 
-RUN pip install jupyterlab
+RUN pip3 install jupyterlab keras boto3
 
 #RUN export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda/extras/CUPTI/lib64
 
