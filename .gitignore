@@ -133,3 +133,6 @@ data/
 
 # Config file
 config.py
+
+# GitHub PAT
+git_PAT.txt
