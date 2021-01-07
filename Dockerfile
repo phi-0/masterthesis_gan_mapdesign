@@ -11,7 +11,6 @@ RUN cd ./masterthesis_gan_mapdesign
 RUN git config --global credential.helper 'store'
 RUN git config --global user.email "pascal.himmelberger@gmail.com"
 RUN git config --global user.name 'phi-0'
-RUN git config --global user.password 'a8f3b2494acfbd2e00e7745dca9435be70089458'
 
 RUN apt-get install -y python3.8 python3-pip
 
