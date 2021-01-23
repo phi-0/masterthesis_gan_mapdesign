@@ -1,6 +1,7 @@
-Connect to Switch VM via SSH and specify portforwarding for local host access to jupyter lab
+Connect to Switch VM via SSH and specify portforwarding for local host access to jupyter lab 
+(old VM has IP = 86.119.39.72!)
 --------------------------------------------------------------------------------------------
-sudo ssh -L 8888:localhost:8888 -L 8061:localhost:8061 ubuntu@86.119.39.72 -i /home/getecer/.ssh/switchsshpascal
+sudo ssh -L 8888:localhost:8888 -L 8061:localhost:8061 ubuntu@86.119.39.18 -i /home/getecer/.ssh/switchsshpascal
 
 
 --------------------------------------------------------------------------------------------
