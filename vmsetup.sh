@@ -3,7 +3,7 @@
 echo "Setting up data mount..."
 echo "--------------------------------------"
 mkdir /data
-mount -t ext3 /dev/vdb1 /data
+sudo mount -t ext3 /dev/vdb1 /data
 
 echo "create startup script to remap after reboot"
 sudo bash -c 'echo "#! /bin/bash" > /etc/init.d/startup_mount.sh'
