@@ -16,6 +16,8 @@ RUN apt-get install -y python3.8 python3-pip
 
 RUN pip3 install jupyterlab keras boto3
 
+CMD cd ./masterthesis_gan_mapdesign && git pull
+
 #RUN export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda/extras/CUPTI/lib64
 
 #RUN export LD_LIBRARY_PATH=/usr/local/cuda/lib64
