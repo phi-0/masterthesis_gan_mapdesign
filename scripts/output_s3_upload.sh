@@ -3,6 +3,7 @@
 
 for imagenum in $@
 do
-    echo "uploading sample_image_epoch$imagenum-$((1 + $RANDOM % 10)).png --> s3://storage_hil/output/sample$imagenum.png"
-    sudo s3cmd put /data/output/images/sample_image_epoch$imagenum-$((1 + $RANDOM % 10)).png s3://storage_hil/output/sample$imagenum.png
+    rnd = $((1 + $RANDOM % 10))
+    echo "uploading sample_image_epoch$imagenum-$rnd.png --> s3://storage_hil/output/sample$imagenum.png"
+    sudo s3cmd put /data/output/images/uploading sample_image_epoch$imagenum-$rnd.png.png s3://storage_hil/output/sample$imagenum.png
 done
