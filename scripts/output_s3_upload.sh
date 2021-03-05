@@ -1,5 +1,6 @@
 #!/bin/bash
 # RUN WITH BASH - uploads a selected number of images while choosing a random number between 1-10 to select a single image per group
+# Aliased on VM as 'output_upload'
 
 for imagenum in $@
 do
