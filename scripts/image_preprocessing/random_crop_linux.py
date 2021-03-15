@@ -48,5 +48,5 @@ for _, _, files in walk(folderpath):
                 else:
                     pass
 
-    f_count += 1
+        f_count += 1
 
