@@ -33,9 +33,13 @@ for _, _, files in walk(folderpath):
             #loop over samples per input image
             samples = []
             for s in range(n):
-                x1 = randrange(0, x - dim)
-                y1 = randrange(0, y - dim)
-                samples.append(img.crop((x1, y1, x1 + dim, y1 + dim)))
+                #check if image has larger dimension than 1024 so x-dim produces non-negative output
+                if x-dim > 0 and y-dim > 0:
+                    x1 = randrange(0, x - dim)
+                    y1 = randrange(0, y - dim)
+                    samples.append(img.crop((x1, y1, x1 + dim, y1 + dim)))
+                else:
+                    pass
 
             # save output images when NOT mostly black
             for i, sample in enumerate(samples):
