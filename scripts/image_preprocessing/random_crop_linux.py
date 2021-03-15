@@ -20,7 +20,7 @@ for _, _, files in walk(folderpath):
     f_count = 1
 
     for file in files:
-        print(f'File {str(i)} of {str(len(files))}')
+        print(f'File {str(f_count)} of {str(len(files))}')
         #only continue with PNG files ( filtering out .ZIP files)
         if file[-3:len(file)] == 'png':
 
