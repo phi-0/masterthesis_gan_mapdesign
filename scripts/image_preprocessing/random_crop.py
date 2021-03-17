@@ -10,7 +10,7 @@ outpath = r"G:\Dev\DataScience\masterthesis_gan_mapdesign\data\Dwarf Fortress Ma
 
 # cropping settings
 dim = 1024      #target dimension (symmetrical dim x dim matrix)
-n = 15          #number of samples to be taken per input image
+n = 10          #number of samples to be taken per input image
 ##########################################
 
 

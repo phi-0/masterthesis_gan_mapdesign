@@ -42,6 +42,7 @@ Run Jupyter Lab inside docker container on 0.0.0.0
 --------------------------------------------------------------------------------------------
 jupyter lab --ip 0.0.0.0 --allow-root
 
+OPTIONAL: specify workdir with: --NotebookApp.notebook_dir=/
 
 Run Tensorboard on docker container
 --------------------------------------------------------------------------------------------
@@ -61,3 +62,14 @@ sudo s3cmd ls s3://storage_hil --host=https://os.zhdk.cloud.switch.ch --region='
 
 # download files to /data on VM
 sudo s3cmd get --recursive s3://storage_hil/maps/ /data/maps/ --host=https://os.zhdk.cloud.switch.ch --region='ZH' --access_key='' --secret_key='' --host-bucket=storage_hil
+
+
+
+SCP to copy images from remote machine (VM) to local machine
+--------------------------------------------------------------------------------------------
+[ON LOCAL WSL2 INSTANCE]
+
+sudo scp -i /home/getecer/.ssh/switchsshpascal ubunut@86.119.39.18:/data/input/crops/IMAGE_NAME.png ./
+
+RECURSIVE (entire directory) - INTO: /mnt/g/Dev/DataScience/masterthesis_gan_mapdesign/data/crops/
+sudo scp -i /home/getecer/.ssh/switchsshpascal -r ubuntu@86.119.39.18:/data/input/crops /mnt/g/Dev/DataScience/masterthesis_gan_mapdesign/data/crops/
