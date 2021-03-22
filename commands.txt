@@ -42,7 +42,7 @@ Run Jupyter Lab inside docker container on 0.0.0.0
 --------------------------------------------------------------------------------------------
 jupyter lab --ip 0.0.0.0 --allow-root
 
-OPTIONAL: specify workdir with: --NotebookApp.notebook_dir=/
+OPTIONAL: specify workdir with: --notebook-dir /
 
 Run Tensorboard on docker container
 --------------------------------------------------------------------------------------------

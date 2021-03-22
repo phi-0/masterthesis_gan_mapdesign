@@ -7,11 +7,11 @@ from os import walk, path
 
 ################ SETTINGS ################
 folderpath = r"/data/input/maps"
-outpath = r"/data/input/crops"
+outpath = r"/data/input/crops_small"
 
 # cropping settings
-dim = 1024      #target dimension (symmetrical dim x dim matrix)
-n = 10          #number of samples to be taken per input image
+dim = 256      #target dimension (symmetrical dim x dim matrix)
+n = 10         #number of samples to be taken per input image
 ##########################################
 
 
