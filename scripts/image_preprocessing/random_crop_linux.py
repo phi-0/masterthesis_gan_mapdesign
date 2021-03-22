@@ -6,7 +6,7 @@ from PIL import Image
 from os import walk, path
 
 ################ SETTINGS ################
-folderpath = r"/data/input/maps"
+folderpath = r"/data/maps"
 outpath = r"/data/input/crops_small"
 
 # cropping settings
