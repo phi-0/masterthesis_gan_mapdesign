@@ -42,7 +42,7 @@ Run Jupyter Lab inside docker container on 0.0.0.0
 --------------------------------------------------------------------------------------------
 jupyter lab --ip 0.0.0.0 --allow-root
 
-OPTIONAL: specify workdir with: --notebook-dir /
+OPTIONAL: specify workdir with: --notebook-dir=/
 
 Run Tensorboard on docker container
 --------------------------------------------------------------------------------------------
@@ -69,7 +69,12 @@ SCP to copy images from remote machine (VM) to local machine
 --------------------------------------------------------------------------------------------
 [ON LOCAL WSL2 INSTANCE]
 
-sudo scp -i /home/getecer/.ssh/switchsshpascal ubunut@86.119.39.18:/data/input/crops/IMAGE_NAME.png ./
+sudo scp -i /home/getecer/.ssh/switchsshpascal ubuntu@86.119.39.18:/data/input/crops/IMAGE_NAME.png ./
 
 RECURSIVE (entire directory) - INTO: /mnt/g/Dev/DataScience/masterthesis_gan_mapdesign/data/crops/
 sudo scp -i /home/getecer/.ssh/switchsshpascal -r ubuntu@86.119.39.18:/data/input/crops /mnt/g/Dev/DataScience/masterthesis_gan_mapdesign/data/crops/
+
+# due to "too many arguments error" we have to copy images batch-wise
+sudo mv $(ls -d $(ls | head -1000)) maps
+# ..with a loop:
+for i in `seq 1 1000`; do sudo mv $(ls -d $(ls | head -1000)) maps; done
