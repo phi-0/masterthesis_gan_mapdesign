@@ -35,7 +35,7 @@ sudo nvidia-docker build . --no-cache -t 'tf-gpu'
 
 Run Docker container on  Switch VM with portforwarding and mapping of local /data drive to /data drive in container
 --------------------------------------------------------------------------------------------
-sudo docker run --rm --gpus all -v /data:/data -it -p 8888:8888 -p 6006:6006 -p 8061:8061 --name dwarfgan tf-gpu bash
+sudo docker run --rm --gpus all -v /data:/data /data2:/data2 -it -p 8888:8888 -p 6006:6006 -p 8061:8061 --name dwarfgan tf-gpu bash
 
 
 Run Jupyter Lab inside docker container on 0.0.0.0
