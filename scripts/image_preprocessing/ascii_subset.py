@@ -17,7 +17,7 @@ imgs = list(data_dir.glob('*.png'))
 ascii_maps = []
 
 for r in range(0,len(imgs)):
-    print(f'filename: {imgs[r]}')
+    print(f"filename: {imgs[r]}")
     i = Image(PIL.Image.open(imgs[r]))
     
     imshow(i)    
