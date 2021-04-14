@@ -16,16 +16,20 @@ imgs = list(data_dir.glob('*.png'))
 #r = random.randint(0,len(imgs))
 ascii_maps = []
 
-for r in range(0,len(imgs)):
-    print(f"filename: {imgs[r]}")
-    i = Image(PIL.Image.open(imgs[r]))
+with outfile as open('./map_list.txt', 'w'):
     
-    imshow(i)    
-    
-    a = input('is this map based on the original ASCII tileset? (y/n)')
-    
-    if a == 'y':
-        map_num = imgs[r].name.split('_')[1]
-        ascii_maps.append(map_num)
-    else:
-        pass
+
+    for r in range(0,len(imgs)):
+        print(f"filename: {imgs[r]}")
+        i = Image(PIL.Image.open(imgs[r]))
+
+        imshow(i)    
+
+        a = input('is this map based on the original ASCII tileset? (y/n)')
+
+        if a == 'y':
+            map_num = imgs[r].name.split('_')[1]
+            #ascii_maps.append(map_num)
+            outfile.writeline(map_num)
+        else:
+            pass
