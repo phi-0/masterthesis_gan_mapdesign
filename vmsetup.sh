@@ -12,11 +12,10 @@ sudo bash -c 'echo "sudo mount -t ext3 /dev/vdb1 /data" >> /etc/init.d/startup_m
 
 echo "Setting up data mount 2..."
 echo "--------------------------------------"
-mkdir /data
+mkdir /data2
 sudo mount -t ext3 /dev/vdc1 /data2
 
 echo "create startup script to remap after reboot"
-sudo bash -c 'echo "#! /bin/bash" > /etc/init.d/startup_mount.sh'
 sudo bash -c 'echo "sudo mount -t ext3 /dev/vdc1 /data2" >> /etc/init.d/startup_mount.sh'
 
 echo "change permission of startup script"
