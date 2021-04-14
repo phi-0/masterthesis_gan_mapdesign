@@ -15,7 +15,7 @@ imgs = list(data_dir.glob('*.png'))
 # show example sample image (cropped to 128x128)
 #r = random.randint(0,len(imgs))
 ascii_maps = []
-%matplotlib inline
+
 for r in range(0,len(imgs)):
     print(f'filename: {imgs[r]}')
     i = Image(PIL.Image.open(imgs[r]))
