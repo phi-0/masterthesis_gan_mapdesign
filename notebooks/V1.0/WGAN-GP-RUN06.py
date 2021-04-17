@@ -259,7 +259,7 @@ def discriminator_model():
 
     # Conv2D Layer 0
     x = Conv2D(
-            filters = 256,
+            filters = 64,
             kernel_size = (12,10), 
             strides = 1,
             padding = 'same',
