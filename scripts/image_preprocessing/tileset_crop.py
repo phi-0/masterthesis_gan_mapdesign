@@ -16,6 +16,8 @@ from PIL import Image
 from os import path
 
 ################ SETTINGS ################
+
+
 filepath = r"G:/Dev/DataScience/masterthesis_gan_mapdesign/data/standard_tileset.png"
 outpath = r"G:/Dev/DataScience/masterthesis_gan_mapdesign/data/tiles"
 
@@ -35,15 +37,13 @@ x_dim = x / tiles_per_dim       # target dimension of a single token x-dimension
 y_dim = y / tiles_per_dim       # target dimension of a single token y-dimension
 
 
-samples = []  # output list of cropped samples
-
 i = 0
 for x in range(tiles_per_dim):      # loop through x dimension
     for y in range(tiles_per_dim):  # loop through y dimension
         x1 = x * x_dim
         y1 = y * y_dim
 
-        print(f'Running crop x: {x1}-{x1 + x_dim}, y: {y1}-{y1 + y_dim}')
+        #print(f'Running crop x: {x1}-{x1 + x_dim}, y: {y1}-{y1 + y_dim}')
 
         crop = img.crop((x1, y1, x1 + x_dim, y1 + y_dim))
         
