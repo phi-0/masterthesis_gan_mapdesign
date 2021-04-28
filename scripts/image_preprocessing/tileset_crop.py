@@ -18,8 +18,8 @@ from os import path
 ################ SETTINGS ################
 
 
-filepath = r"G:/Dev/DataScience/masterthesis_gan_mapdesign/data/standard_tileset.png"
-outpath = r"G:/Dev/DataScience/masterthesis_gan_mapdesign/data/tiles"
+filepath = r"G:/Dev/DataScience/masterthesis_gan_mapdesign/data/standard_tileset_800x600.png"   #640x300: "G:/Dev/DataScience/masterthesis_gan_mapdesign/data/standard_tileset.png"
+outpath = r"G:/Dev/DataScience/masterthesis_gan_mapdesign/data/tiles/800x600"                   #640x300: "G:/Dev/DataScience/masterthesis_gan_mapdesign/data/tiles/640x300" 
 
 
 ##########################################
