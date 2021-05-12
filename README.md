@@ -36,13 +36,13 @@ This repo contains the [Dockerfile](https://github.com/phi-0/masterthesis_gan_ma
 
 Building the container (in a folder with only the Dockerfile):
 
-> docker build . --no-cache -t 'tf-gpu'
+> *docker build . --no-cache -t 'tf-gpu'*
 
 Run the container with GPU support, port-forwarding for JupyterLab and Tensorboard ports, mapping the partitions containing input and output data (*data* and *data2*) and attach to running container with *bash*:
-> sudo docker run --rm --gpus all -v /data:/data /data2:/data2 -it -p 8888:8888 -p 6006:6006 -p 8061:8061 --name dwarfgan tf-gpu bash
+> *sudo docker run --rm --gpus all -v /data:/data /data2:/data2 -it -p 8888:8888 -p 6006:6006 -p 8061:8061 --name dwarfgan tf-gpu bash*
 
 Once inside the docker container initialize the Jupyter Lab server based on root directory of container:
-> jupyter lab --ip 0.0.0.0 --allow-root --notebook-dir=/
+> *jupyter lab --ip 0.0.0.0 --allow-root --notebook-dir=/*
 
 To start the TensorBoard demon inside jupyter lab, open a new console and run the following with *--logdir=* set to the drive and folder supposed to containe the tensorboard checkpoints:
-> tensorboard --port=8061 --logdir=/data/output/tensorboard --bind_all 
+> *tensorboard --port=8061 --logdir=/data/output/tensorboard --bind_all*
