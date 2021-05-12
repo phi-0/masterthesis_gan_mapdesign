@@ -1,4 +1,4 @@
-# GAN based Map Design - DwarfGAN
+# GAN-based Map Design - DwarfGAN
 
 
 ## Background
@@ -17,3 +17,13 @@ Three example input map images are shown below:
 ![Example Input Map 1](https://github.com/phi-0/masterthesis_gan_mapdesign/blob/master/data/input_samples/map_5.png)
 ![Example Input Map 2](https://github.com/phi-0/masterthesis_gan_mapdesign/blob/master/data/input_samples/map_358.png)
 ![Example Input Map 3](https://github.com/phi-0/masterthesis_gan_mapdesign/blob/master/data/input_samples/map_78.png)
+
+
+## Pre-Processing (model external)
+1. Source ([DFMA Map Archive on GitHub](https://github.com/df-map-archive/dfma-map-file-archive) with [GitHub LFS](https://git-lfs.github.com/))
+1. Extract Map Archive *.FDF-MAP* files ([GUI-Automation script](https://github.com/phi-0/masterthesis_gan_mapdesign/blob/master/scripts/DF_map_conversion/auto_conversion.py))
+1. Upload of extracted source maps to S3 bucket ([Python script with *boto3*](https://github.com/phi-0/masterthesis_gan_mapdesign/blob/master/scripts/Map_upload/upload_maps.py))
+1. Random Crop and Filter ([Python pre-processing scripts](https://github.com/phi-0/masterthesis_gan_mapdesign/tree/master/scripts/image_preprocessing))
+1. Later Models: 
+    1. semi-automated selection of ASCII-based maps ([Jupyter notebook](https://github.com/phi-0/masterthesis_gan_mapdesign/blob/master/scripts/image_preprocessing/ASCII_subset.ipynb)) 
+    1. structured cropping to extract tiles from tilesets ([Tileset crop script](https://github.com/phi-0/masterthesis_gan_mapdesign/blob/master/scripts/image_preprocessing/tileset_crop.py) used on the original *DwarfFortress* [ASCII tilesets](https://github.com/phi-0/masterthesis_gan_mapdesign/blob/master/data/tiles/standard_tileset.png) to extract [single tiles](https://github.com/phi-0/masterthesis_gan_mapdesign/tree/master/data/tiles/800x600))
