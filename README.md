@@ -14,6 +14,6 @@ The extracted sample map images (see section **Pre-Processing**) sourced from th
 
 Three example input map images are shown below:
 
-![Example Input Map 1](https://os.zhdk.cloud.switch.ch/swift/v1/storage_hil/maps/map_5.png)
-![Example Input Map 2](https://os.zhdk.cloud.switch.ch/swift/v1/storage_hil/maps/map_358.png)
-![Example Input Map 3](https://os.zhdk.cloud.switch.ch/swift/v1/storage_hil/maps/map_78.png)
+![Example Input Map 1](https://github.com/phi-0/masterthesis_gan_mapdesign/data/input_samples/map_5.png)
+![Example Input Map 2](https://github.com/phi-0/masterthesis_gan_mapdesign/data/input_samples/map_358.png)
+![Example Input Map 3](https://github.com/phi-0/masterthesis_gan_mapdesign/data/input_samples/map_78.png)
