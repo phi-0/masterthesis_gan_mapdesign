@@ -129,10 +129,17 @@ dmypy.json
 .pyre/
 
 # Source data
-data/
+data/crops/
+data/Dwarf Fortress Maps/
 
 # Config file
 config.py
 
 # GitHub PAT
 git_PAT.txt
+
+# List of commands
+commands.txt
+
+# Setup task list (VM)
+SETUP TASKS Switch VM.txt
