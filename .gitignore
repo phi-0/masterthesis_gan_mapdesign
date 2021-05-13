@@ -143,3 +143,10 @@ commands.txt
 
 # Setup task list (VM)
 SETUP TASKS Switch VM.txt
+
+# Models
+models/WGANGP-RUN04/
+models/WGANGP-RUN05/
+models/WGANGP-RUN06/
+models/WGANGP-RUN07/
+models/WGANGP-RUN08/
