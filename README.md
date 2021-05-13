@@ -50,4 +50,4 @@ To start the TensorBoard demon inside jupyter lab, open a new console and run th
 
 ## Output
 
-![](https://github.com/phi-0/masterthesis_gan_mapdesign/blop/master/output/generate_map_animated.gif)
+![](https://github.com/phi-0/masterthesis_gan_mapdesign/blob/master/output/images/generate_map_animated.gif)
