@@ -23,12 +23,12 @@ Three example input map images are shown below:
 1. Source ([DFMA Map Archive on GitHub](https://github.com/df-map-archive/dfma-map-file-archive) with [GitHub LFS](https://git-lfs.github.com/))
 1. Extract Map Archive *.FDF-MAP* files ([GUI-Automation script](https://github.com/phi-0/masterthesis_gan_mapdesign/blob/master/scripts/DF_map_conversion/auto_conversion.py))
 1. Upload of extracted source maps to S3 bucket ([Python script with *boto3*](https://github.com/phi-0/masterthesis_gan_mapdesign/blob/master/scripts/Map_upload/upload_maps.py))
-1. Random Crop and Filter ([Python pre-processing scripts](https://github.com/phi-0/masterthesis_gan_mapdesign/tree/master/scripts/image_preprocessing))
+1. Random Crop and Filter ([Python pre-processing scripts](https://github.com/phi-0/masterthesis_gan_mapdesign/tree/master/scripts/image_preprocessing)). The different models require differently sized input crops. Generally the input and output dimensions of the model trained as part of this thesis are included in the model name (e.g. WGAN-GP**256**)
 1. Later Models (WGAN-GP RUN06 onwards): 
     1. semi-automated selection of ASCII-based maps ([Jupyter notebook](https://github.com/phi-0/masterthesis_gan_mapdesign/blob/master/scripts/image_preprocessing/ASCII_subset.ipynb)) 
     1. structured cropping to extract tiles from tilesets ([Tileset crop script](https://github.com/phi-0/masterthesis_gan_mapdesign/blob/master/scripts/image_preprocessing/tileset_crop.py) used on the original *DwarfFortress* [ASCII tilesets](https://github.com/phi-0/masterthesis_gan_mapdesign/blob/master/data/tiles/standard_tileset.png) to extract [single tiles](https://github.com/phi-0/masterthesis_gan_mapdesign/tree/master/data/tiles/800x600))
 
-
+Further pre-processing was implemented as part of the models using keras pre-processing layers (**rescaling** and - if required - **resizing**).
 
 ## Setup
 
@@ -46,3 +46,8 @@ Once inside the docker container initialize the Jupyter Lab server based on root
 
 To start the TensorBoard demon inside jupyter lab, open a new console and run the following with *--logdir=* set to the drive and folder supposed to containe the tensorboard checkpoints:
 > *tensorboard --port=8061 --logdir=/data/output/tensorboard --bind_all*
+
+
+## Output
+
+![](https://github.com/phi-0/masterthesis_gan_mapdesign/blop/master/output/generate_map_animated.gif)
