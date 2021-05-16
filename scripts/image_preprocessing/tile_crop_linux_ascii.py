@@ -4,11 +4,12 @@ from os import walk, path
 
 ################ SETTINGS ################
 folderpath = r"/data/maps"
-outpath = r"/data2/input/ascii_crops_tiles/maps"
+outpath = r"/data2/input/ascii_crops_tiles8/maps"
 map_numbers = r"/home/ubuntu/masterthesis_gan_mapdesign/scripts/image_preprocessing/map_list.txt"
 
 # cropping settings
-dim = 12      #target dimension (symmetrical dim x dim matrix)
+xdim = 12      #target dimension (symmetrical dim x dim matrix)
+ydim = 8
 n = 30         #number of samples to be taken per input image
 
 
@@ -42,21 +43,22 @@ for _, _, files in walk(folderpath):
             img = Image.open(path.join(folderpath, file))
             x, y = img.size
 
-            x_dim = dim
-            y_dim = dim
+            x_n = x // xdim
+            y_n = y // ydim
 
             #loop over samples per input image
             #samples = []
             i = 0
             for i in range(n):
 
-                pos = randrange(0,x_dim,1)
-                x1 = pos * x_dim
-                y1 = pos * (y_dim - 2) #only move 12-2 = 10 pixels in y-direction since tiles are actually 12x10. We move by 10 pixels but still take a 12x12 crop (which the model will then crop to 12x10)
+                posx = randrange(0,x_n,1)
+                posy = randrange(0,y_n,1)
+                x1 = posx * xdim
+                y1 = posy * ydim  #only move 12-4 = 8 pixels in y-direction since tiles are actually 12x10. We move by 10 pixels but still take a 12x12 crop (which the model will then crop to 12x10)
 
                 #print(f'Crop {i} - Running crop x: {x1}-{x1 + x_dim}, y: {y1}-{y1 + y_dim}')
 
-                sample = img.crop((x1, y1, x1 + x_dim, y1 + y_dim))
+                sample = img.crop((x1, y1, x1 + xdim, y1 + ydim))
                 colors = sample.getcolors()  # this method returns None if the number of colors exceeds the default value of 256.
 
                 # with the following condition we filter out mostly black / unicolor images which don't hold any information
