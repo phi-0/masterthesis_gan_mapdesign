@@ -1,5 +1,6 @@
 #! /bin/bash
 
+# this requires the specific disk (here /dev/vdb1) to be initialized and formated as ext3
 echo "Setting up data mount..."
 echo "--------------------------------------"
 mkdir /data
@@ -9,14 +10,13 @@ echo "create startup script to remap after reboot"
 sudo bash -c 'echo "#! /bin/bash" > /etc/init.d/startup_mount.sh'
 sudo bash -c 'echo "sudo mount -t ext3 /dev/vdb1 /data" >> /etc/init.d/startup_mount.sh'
 
-
+# this requires the specific disk (here /dev/vdc1) to be initialized and formated as ext3
 echo "Setting up data mount 2..."
 echo "--------------------------------------"
-mkdir /data
+mkdir /data2
 sudo mount -t ext3 /dev/vdc1 /data2
 
 echo "create startup script to remap after reboot"
-sudo bash -c 'echo "#! /bin/bash" > /etc/init.d/startup_mount.sh'
 sudo bash -c 'echo "sudo mount -t ext3 /dev/vdc1 /data2" >> /etc/init.d/startup_mount.sh'
 
 echo "change permission of startup script"

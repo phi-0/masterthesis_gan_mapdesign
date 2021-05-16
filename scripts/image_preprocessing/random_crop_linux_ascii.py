@@ -1,6 +1,3 @@
-#!/usr/bin/env python3
-# refer to https://stackoverflow.com/questions/57221754/how-to-autocrop-randomly-using-pil for the basis of this logic
-
 from random import randrange
 from PIL import Image
 from os import walk, path
@@ -21,7 +18,7 @@ with open(map_numbers, "r") as fobj:
 
 #replace newline characters in each list element
 maps = [m.replace('\n','') for m in maps]
-print(maps)   
+print(maps)
 
 
 #get file list generator with os.walk()
@@ -33,7 +30,7 @@ for _, _, files in walk(folderpath):
         #print(f"{maps[1]}-{file.replace('map_','').replace('.png','')}")
         #only continue with PNG files and map numbers contained in map_list.txt ( filtering out .ZIP files)
         file_name = file
-        
+
         if file[-3:len(file)] == 'png' and file_name.replace('map_','').replace('.png','') in maps:
 
             #print(f'Working on image: {file}')
@@ -65,4 +62,3 @@ for _, _, files in walk(folderpath):
                     pass
 
         f_count += 1
-

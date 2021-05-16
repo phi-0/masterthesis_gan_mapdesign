@@ -74,6 +74,8 @@ sudo scp -i /home/getecer/.ssh/switchsshpascal ubuntu@86.119.39.18:/data/input/c
 RECURSIVE (entire directory) - INTO: /mnt/g/Dev/DataScience/masterthesis_gan_mapdesign/data/crops/
 sudo scp -i /home/getecer/.ssh/switchsshpascal -r ubuntu@86.119.39.18:/data/input/crops /mnt/g/Dev/DataScience/masterthesis_gan_mapdesign/data/crops/
 
+Copying large number of files between folders
+--------------------------------------------------------------------------------------------
 # due to "too many arguments error" we have to copy images batch-wise
 sudo mv $(ls -d $(ls | head -1000)) maps
 # ..with a loop:
