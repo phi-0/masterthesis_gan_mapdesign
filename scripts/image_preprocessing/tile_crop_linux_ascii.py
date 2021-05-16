@@ -58,7 +58,7 @@ for _, _, files in walk(folderpath):
 
                 #print(f'Crop {i} - Running crop x: {x1}-{x1 + x_dim}, y: {y1}-{y1 + y_dim}')
 
-                sample = img.crop((x1, y1, x1 + xdim, y1 + ydim))
+                sample = img.crop((y1, x1, y1 + ydim, x1 + xdim))
                 colors = sample.getcolors()  # this method returns None if the number of colors exceeds the default value of 256.
 
                 # with the following condition we filter out mostly black / unicolor images which don't hold any information
