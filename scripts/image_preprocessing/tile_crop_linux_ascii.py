@@ -8,7 +8,7 @@ outpath = r"/data2/input/ascii_crops_tiles8/maps"
 map_numbers = r"/home/ubuntu/masterthesis_gan_mapdesign/scripts/image_preprocessing/map_list.txt"
 
 # cropping settings
-xdim = 8
+xdim = 10
 ydim = 12      #target dimension (symmetrical dim x dim matrix)
 
 n = 30         #number of samples to be taken per input image
