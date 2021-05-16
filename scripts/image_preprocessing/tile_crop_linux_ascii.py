@@ -29,13 +29,14 @@ for _, _, files in walk(folderpath):
     f_count = 1
 
     for file in files:
-        print(f'File {str(f_count)} of {str(len(maps))} - filename: {file}', flush=True)
+
         #print(f"{maps[1]}-{file.replace('map_','').replace('.png','')}")
         #only continue with PNG files and map numbers contained in map_list.txt ( filtering out .ZIP files)
         file_name = file
 
         if file[-3:len(file)] == 'png' and file_name.replace('map_','').replace('.png','') in maps:
-
+            print(f'File {str(f_count)} of {str(len(maps))} - filename: {file}', flush=True)
+            f_count += 1
             #print(f'Working on image: {file}')
             #loop over images in directory
             img = Image.open(path.join(folderpath, file))
@@ -50,16 +51,18 @@ for _, _, files in walk(folderpath):
             #loop over samples per input image
             samples = []
             i = 0
-            for x in range(tiles_per_dim):  # loop through x dimension
-                for y in range(tiles_per_dim):  # loop through y dimension
-                    x1 = x * x_dim
-                    y1 = y * (y_dim - 2) #only move 12-2 = 10 pixels in y-direction since tiles are actually 12x10. We move by 10 pixels but still take a 12x12 crop (which the model will then crop to 12x10)
+            for i in range(n):
+                for x in range(tiles_per_dim):  # loop through x dimension
+                    for y in range(tiles_per_dim):  # loop through y dimension
+                        pos = randrange(0,x_dim,1)
+                        x1 = (x * pos) * x_dim
+                        y1 = (y * pos) * (y_dim - 2) #only move 12-2 = 10 pixels in y-direction since tiles are actually 12x10. We move by 10 pixels but still take a 12x12 crop (which the model will then crop to 12x10)
 
-                    # print(f'Running crop x: {x1}-{x1 + x_dim}, y: {y1}-{y1 + y_dim}')
+                        # print(f'Running crop x: {x1}-{x1 + x_dim}, y: {y1}-{y1 + y_dim}')
 
-                    samples.append(img.crop((x1, y1, x1 + x_dim, y1 + y_dim)))
+                        samples.append(img.crop((x1, y1, x1 + x_dim, y1 + y_dim)))
 
-                    i += 1
+                        i += 1
 
             # save output images when NOT mostly black
             for i, sample in enumerate(samples):
@@ -72,4 +75,3 @@ for _, _, files in walk(folderpath):
                 else:
                     pass
 
-        f_count += 1
