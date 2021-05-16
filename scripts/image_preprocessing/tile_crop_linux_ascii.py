@@ -21,7 +21,7 @@ with open(map_numbers, "r") as fobj:
 
 #replace newline characters in each list element
 maps = [m.replace('\n','') for m in maps]
-print(maps)
+#print(maps)
 
 
 #get file list generator with os.walk()
@@ -58,13 +58,21 @@ for _, _, files in walk(folderpath):
                         x1 = (x * pos) * x_dim
                         y1 = (y * pos) * (y_dim - 2) #only move 12-2 = 10 pixels in y-direction since tiles are actually 12x10. We move by 10 pixels but still take a 12x12 crop (which the model will then crop to 12x10)
 
-                        # print(f'Running crop x: {x1}-{x1 + x_dim}, y: {y1}-{y1 + y_dim}')
+                        print(f'Running crop x: {x1}-{x1 + x_dim}, y: {y1}-{y1 + y_dim}')
 
-                        samples.append(img.crop((x1, y1, x1 + x_dim, y1 + y_dim)))
+                        sample = img.crop((x1, y1, x1 + x_dim, y1 + y_dim))
+                        colors = sample.getcolors()  # this method returns None if the number of colors exceeds the default value of 256.
 
-                        i += 1
+                        # with the following condition we filter out mostly black / unicolor images which don't hold any information
+                        if colors == None or len(colors) > 2:
+                            sample.save(f"{outpath}/{file.replace('.png', '')}_crop{str(i)}.png", 'PNG')
+                        else:
+                            pass
+
+                        #i += 1
 
             # save output images when NOT mostly black
+            '''
             for i, sample in enumerate(samples):
                 #get color range
                 colors = sample.getcolors() # this method returns None if the number of colors exceeds the default value of 256.
@@ -75,3 +83,4 @@ for _, _, files in walk(folderpath):
                 else:
                     pass
 
+                '''
