@@ -44,12 +44,11 @@ for _, _, files in walk(folderpath):
             img = Image.open(path.join(folderpath, file))
             x, y = img.size
 
+            #maximum number of tiles in each dimension under assumption of xdim and ydim
             x_n = x // xdim
             y_n = y // ydim
 
             #loop over samples per input image
-            #samples = []
-            i = 0
             for i in range(n):
 
                 posx = randrange(0,x_n,1)
@@ -67,19 +66,3 @@ for _, _, files in walk(folderpath):
                     sample.save(f"{outpath}/{file.replace('.png', '')}_crop{str(i)}.png", 'PNG')
                 else:
                     pass
-
-                #i += 1
-
-            # save output images when NOT mostly black
-            '''
-            for i, sample in enumerate(samples):
-                #get color range
-                colors = sample.getcolors() # this method returns None if the number of colors exceeds the default value of 256.
-
-                #with the following condition we filter out mostly black / unicolor images which don't hold any information
-                if colors == None or len(colors) > 2:
-                    sample.save(f"{outpath}/{file.replace('.png','')}_crop{str(i)}.png", 'PNG')
-                else:
-                    pass
-
-                '''
