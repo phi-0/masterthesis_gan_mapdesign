@@ -54,7 +54,7 @@ for _, _, files in walk(folderpath):
                 x1 = pos * x_dim
                 y1 = pos * (y_dim - 2) #only move 12-2 = 10 pixels in y-direction since tiles are actually 12x10. We move by 10 pixels but still take a 12x12 crop (which the model will then crop to 12x10)
 
-                print(f'File {i} - Running crop x: {x1}-{x1 + x_dim}, y: {y1}-{y1 + y_dim}')
+                #print(f'Crop {i} - Running crop x: {x1}-{x1 + x_dim}, y: {y1}-{y1 + y_dim}')
 
                 sample = img.crop((x1, y1, x1 + x_dim, y1 + y_dim))
                 colors = sample.getcolors()  # this method returns None if the number of colors exceeds the default value of 256.

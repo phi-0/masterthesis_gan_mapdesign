@@ -66,6 +66,7 @@ Trained models are saved as *.h5* files and their last training state is shared 
 - [models/WGANGP-RUN06/](https://os.zhdk.cloud.switch.ch/swift/v1/storage_hil/models/WGANGP-RUN06/generator-2021-04-20_050013.h5)
 - [models/WGANGP-RUN07/](https://os.zhdk.cloud.switch.ch/swift/v1/storage_hil/models/WGANGP-RUN07/generator-2021-04-22_230202.h5)
 - [models/WGANGP-RUN08/](https://os.zhdk.cloud.switch.ch/swift/v1/storage_hil/models/WGANGP-RUN08/generator-2021-05-01_091206.h5)
+- [models/WGANGP-RUN09/](https://os.zhdk.cloud.switch.ch/swift/v1/storage_hil/models/WGANGP-RUN09/generator-2021-05-09_145046.h5)
 
 ### **Generating New Maps**
 
