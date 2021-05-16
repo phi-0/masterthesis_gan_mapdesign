@@ -9,8 +9,6 @@ output: 256 12 x 10 glyphs making up the fundamental tokens of the game
 
 """
 
-# refer to https://stackoverflow.com/questions/57221754/how-to-autocrop-randomly-using-pil for the basis of this logic
-
 from random import randrange
 from PIL import Image
 from os import path
