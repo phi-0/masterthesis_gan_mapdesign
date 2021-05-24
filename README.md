@@ -28,6 +28,8 @@ Three example input map images are shown below (varying input dimensions upto 60
     1. semi-automated selection of ASCII-based maps ([Jupyter notebook](https://github.com/phi-0/masterthesis_gan_mapdesign/blob/master/scripts/image_preprocessing/ASCII_subset.ipynb)) 
     1. structured cropping to extract tiles from tilesets ([Tileset crop script](https://github.com/phi-0/masterthesis_gan_mapdesign/blob/master/scripts/image_preprocessing/tileset_crop.py) used on the original *DwarfFortress* [ASCII tilesets](https://github.com/phi-0/masterthesis_gan_mapdesign/blob/master/data/tiles/standard_tileset.png) to extract [single tiles](https://github.com/phi-0/masterthesis_gan_mapdesign/tree/master/data/tiles/800x600)) and to crop input map images to 12x12 dimensional single tiles.
 
+In order to re-run any of the model training scripts, the input data found on the S3 bucket first needs to be pre-processed to the correct dimensions for the model. Please use the random crop script to create appropriate dimension input crops for the chosen model (script [./image_preprocessing/random_crop.py](https://github.com/phi-0/masterthesis_gan_mapdesign/blob/master/scripts/image_preprocessing/random_crop.py) or [./image_preprocessing/random_crop_linux_ascii.py](https://github.com/phi-0/masterthesis_gan_mapdesign/blob/master/scripts/image_preprocessing/random_crop_linux_ascii.py) for every model except **WGAN-GP RUN09** where the structured cropping mechanism was applied in script [./image_preprocessing/tile_crop_linux_ascii.py](https://github.com/phi-0/masterthesis_gan_mapdesign/blob/master/scripts/image_preprocessing/tile_crop_linux_ascii.py))
+
 Further pre-processing was implemented as part of the models using keras pre-processing layers (**rescaling** and - if required - **resizing**).
 
 ## Setup
@@ -51,9 +53,9 @@ To start the TensorBoard demon inside jupyter lab, open a new console and run th
 
 ## Output
 
-Trained models are saved as *.h5* files and their last training state is shared via GitHub ([models](https://github.com/phi-0/masterthesis_gan_mapdesign/tree/master/models)). Model saves of later, bigger models are massive (upto 400MB) and cannot be shared via GitHub (120MB single file limit). All Models have been shared via S3 bucket ([S3 bucket - models](https://os.zhdk.cloud.switch.ch/swift/v1/storage_hil/)). In order to download a single model save file add the folder name */models*, the model folder (e.g. *DCGAN256*) and the model save file name (see list below)
+Trained models are saved as *.h5* files and their last training state is shared via GitHub ([models](https://github.com/phi-0/masterthesis_gan_mapdesign/tree/master/models)). Model saves of later, bigger models are massive (upto 400MB) and cannot be shared via GitHub (120MB single file limit). All Models have been shared via S3 bucket ([S3 bucket - models](https://os.zhdk.cloud.switch.ch/swift/v1/storage_hil/)). In order to download a single model save file add the folder name */models*, the model folder (e.g. *DCGAN256*) and the model save file name or simply click on one of the links below.
 
->  https://os.zhdk.cloud.switch.ch/swift/v1/storage_hil/**models/DCGAN256/generator-2021-03-24_174741.h5**
+>  https://os.zhdk.cloud.switch.ch/swift/v1/storage_hil/models/DCGAN256/generator-2021-03-24_174741.h5
 
 ### **Available Model Saves**
 
