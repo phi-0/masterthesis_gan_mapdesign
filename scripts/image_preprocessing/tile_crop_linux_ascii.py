@@ -4,7 +4,7 @@ from os import walk, path
 
 ################ SETTINGS ################
 folderpath = r"/data/maps"
-outpath = r"/data2/input/ascii_crops_tiles8/maps"
+outpath = r"/data2/input/ascii_crops_tiles/maps"
 map_numbers = r"/home/ubuntu/masterthesis_gan_mapdesign/scripts/image_preprocessing/map_list.txt"
 
 # cropping settings
