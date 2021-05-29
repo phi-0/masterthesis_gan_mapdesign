@@ -12,6 +12,8 @@ The extracted sample map images (see section **Pre-Processing**) sourced from th
 
 >    os.zhdk.cloud.switch.ch/swift/v1/storage_hil/**maps/map_[ID].png**
 
+For bulk downloading the original map samples please use the [python bulk download script](https://github.com/phi-0/masterthesis_gan_mapdesign/blob/master/scripts/Map_download/map_sample_download.py)
+
 Three example input map images are shown below (varying input dimensions upto 6000 x 6000 pixels):
 
 ![Example Input Map 1](https://github.com/phi-0/masterthesis_gan_mapdesign/blob/master/data/input_samples/map_5.png)
